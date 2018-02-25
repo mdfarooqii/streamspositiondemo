@@ -29,6 +29,7 @@ public class ARiskJsonDeserializer<T> implements Deserializer {
             return null;
         }
         try {
+            System.out.println("value of string is "+ s + "for deserialized class "+deserializedClass.getName());
             return objectMapper.readValue(s, this.deserializedClass);
         } catch (IOException e) {
             e.printStackTrace();
