@@ -20,4 +20,10 @@ public class PositionKey {
     public void setPositionName(String positionName) {
         this.positionName = positionName;
     }
+
+    public String toString(){
+        return "className is : "+this.getClass().getName() +"\n"
+                + "positionId : ["+positionId + "]\n"
+                + "positionName : ["+positionName+"]";
+    }
 }
