@@ -1,0 +1,514 @@
+RiskValue file 
+   private String  positionId;
+   private String ubsMeasureId;
+   private String scenarioIdDomain;
+   private String scenarioIdId;
+   private String marketDataSegmentId1;
+   private String marketDataSegmentId2;
+   private String valueUSD;
+   private String unitOfMeasure;
+   private String valueUnitOfMeasure;
+   private String expectedAssetFlowId;
+   
+Position file
+
+
+
+ 
+ 
+  private String id;
+ 
+ 
+  private String marketDataSetName;
+ 
+ 
+  private String name;
+ 
+ 
+  private String marketDataSetType;
+ 
+ 
+  private String marketDataSetContext;
+ 
+ 
+  private String
+  marketDataSetCreationDateTime;
+ 
+ 
+  private String
+  marketDataSetSourceIdDomain;
+ 
+ 
+  private String marketDataSetSourceIdId;
+ 
+ 
+  private String
+  marketDataSetSourceIdVersion;
+ 
+ 
+  private String
+  marketDataSetLegacySourceIdDomain;
+ 
+ 
+  private String
+  marketDataSetLegacySourceIdId;
+ 
+ 
+  private String marketDataSetRiskType;
+ 
+ 
+  private String
+  marketDataSetCalculationType;
+ 
+ 
+  private String marketDataSetModelDomain;
+ 
+ 
+  private String marketDataSetModelId;
+ 
+ 
+  private String marketDataSetOwnerDomain;
+ 
+ 
+  private String marketDataSetOwnerId;
+ 
+ 
+  private String marketDataSetCurrency;
+ 
+ 
+  private String discountingMarketDataSet;
+ 
+ 
+  private String referenceMarketDataSet;
+ 
+ 
+  private String countryOfRisk;
+ 
+ 
+  private String index;
+ 
+ 
+  private String tranche;
+ 
+ 
+  private String referenceIndex;
+ 
+ 
+  private String sAndPRating;
+ 
+ 
+  private String moodyRating;
+ 
+ 
+  private String fitchRating;
+ 
+ 
+  private String internalRating;
+ 
+ 
+  private String compositeRating;
+ 
+ 
+  private String instrumentIdDomain;
+ 
+ 
+  private String instrumentIdId;
+ 
+ 
+  private String
+  alternateInstrumentIdDomain;
+ 
+ 
+  private String alternateInstrumentIdId;
+ 
+ 
+  private String currencyPair;
+ 
+ 
+  private String compoundingMethod;
+ 
+ 
+  private String seniority;
+ 
+ 
+  private String restructuringType;
+ 
+ 
+  private String referenceEntityIdDomain;
+ 
+ 
+  private String referenceEntityIdId;
+ 
+ 
+  private String curveMarketDomain;
+ 
+ 
+  private String curveMarketId;
+ 
+ 
+  private String curveType;
+ 
+ 
+  private String curveSubType;
+ 
+ 
+  private String parameterFamily;
+ 
+ 
+  private String location;
+ 
+ 
+  private String quality;
+ 
+ 
+  private String isTradingAsDefaulted;
+ 
+ 
+  private String guarantorName;
+ 
+ 
+  private String guaranteeType;
+ 
+ 
+  private String guaranteeEndDate;
+ 
+ 
+  private String immConvention;
+ 
+ 
+  private String premiumFrequency;
+ 
+ 
+  private String markQuoteConvention;
+ 
+ 
+  private String rowLabel;
+ 
+ 
+  private String rowLabelDate;
+ 
+ 
+  private String columnLabel;
+ 
+ 
+  private String columnLabelDate;
+ 
+ 
+  private String additionalLabelName1;
+ 
+ 
+  private String additionalLabelValue1;
+ 
+ 
+  private String additionalLabelName2;
+ 
+ 
+  private String additionalLabelValue2;
+ 
+ 
+  private String termStructureConvention;
+ 
+ 
+  private String minuendMDSName;
+ 
+ 
+  private String minuendMDSCurrency;
+ 
+ 
+  private String minuendMDSResetTenor;
+ 
+ 
+  private String subtrahendMDSName;
+ 
+ 
+  private String subtrahendMDSCurrency;
+ 
+ 
+  private String subtrahendMDSResetTenor;
+ 
+ 
+  private String impliedFrom;
+ 
+ 
+  private String outrightCurveName;
+ 
+ 
+  private String resetTenor;
+ 
+ 
+  private String isNonDeliverable;
+ 
+ 
+  private String compositionType;
+ 
+ 
+  private String customAttributeName1;
+ 
+ 
+  private String customAttributeValue1;
+ 
+ 
+  private String customAttributeName2;
+ 
+ 
+  private String customAttributeValue2;
+ 
+ 
+  private String customAttributeName3;
+ 
+ 
+  private String customAttributeValue3;
+ 
+
+-----  MDS file 
+
+
+ 
+ 
+  private String id;
+ 
+ 
+  private String marketDataSetName;
+ 
+ 
+  private String name;
+ 
+ 
+  private String marketDataSetType;
+ 
+ 
+  private String marketDataSetContext;
+ 
+ 
+  private String
+  marketDataSetCreationDateTime;
+ 
+ 
+  private String
+  marketDataSetSourceIdDomain;
+ 
+ 
+  private String marketDataSetSourceIdId;
+ 
+ 
+  private String
+  marketDataSetSourceIdVersion;
+ 
+ 
+  private String
+  marketDataSetLegacySourceIdDomain;
+ 
+ 
+  private String
+  marketDataSetLegacySourceIdId;
+ 
+ 
+  private String marketDataSetRiskType;
+ 
+ 
+  private String
+  marketDataSetCalculationType;
+ 
+ 
+  private String marketDataSetModelDomain;
+ 
+ 
+  private String marketDataSetModelId;
+ 
+ 
+  private String marketDataSetOwnerDomain;
+ 
+ 
+  private String marketDataSetOwnerId;
+ 
+ 
+  private String marketDataSetCurrency;
+ 
+ 
+  private String discountingMarketDataSet;
+ 
+ 
+  private String referenceMarketDataSet;
+ 
+ 
+  private String countryOfRisk;
+ 
+ 
+  private String index;
+ 
+ 
+  private String tranche;
+ 
+ 
+  private String referenceIndex;
+ 
+ 
+  private String sAndPRating;
+ 
+ 
+  private String moodyRating;
+ 
+ 
+  private String fitchRating;
+ 
+ 
+  private String internalRating;
+ 
+ 
+  private String compositeRating;
+ 
+ 
+  private String instrumentIdDomain;
+ 
+ 
+  private String instrumentIdId;
+ 
+ 
+  private String
+  alternateInstrumentIdDomain;
+ 
+ 
+  private String alternateInstrumentIdId;
+ 
+ 
+  private String currencyPair;
+ 
+ 
+  private String compoundingMethod;
+ 
+ 
+  private String seniority;
+ 
+ 
+  private String restructuringType;
+ 
+ 
+  private String referenceEntityIdDomain;
+ 
+ 
+  private String referenceEntityIdId;
+ 
+ 
+  private String curveMarketDomain;
+ 
+ 
+  private String curveMarketId;
+ 
+ 
+  private String curveType;
+ 
+ 
+  private String curveSubType;
+ 
+ 
+  private String parameterFamily;
+ 
+ 
+  private String location;
+ 
+ 
+  private String quality;
+ 
+ 
+  private String isTradingAsDefaulted;
+ 
+ 
+  private String guarantorName;
+ 
+ 
+  private String guaranteeType;
+ 
+ 
+  private String guaranteeEndDate;
+ 
+ 
+  private String immConvention;
+ 
+ 
+  private String premiumFrequency;
+ 
+ 
+  private String markQuoteConvention;
+ 
+ 
+  private String rowLabel;
+ 
+ 
+  private String rowLabelDate;
+ 
+ 
+  private String columnLabel;
+ 
+ 
+  private String columnLabelDate;
+ 
+ 
+  private String additionalLabelName1;
+ 
+ 
+  private String additionalLabelValue1;
+ 
+ 
+  private String additionalLabelName2;
+ 
+ 
+  private String additionalLabelValue2;
+ 
+ 
+  private String termStructureConvention;
+ 
+ 
+  private String minuendMDSName;
+ 
+ 
+  private String minuendMDSCurrency;
+ 
+ 
+  private String minuendMDSResetTenor;
+ 
+ 
+  private String subtrahendMDSName;
+ 
+ 
+  private String subtrahendMDSCurrency;
+ 
+ 
+  private String subtrahendMDSResetTenor;
+ 
+ 
+  private String impliedFrom;
+ 
+ 
+  private String outrightCurveName;
+ 
+ 
+  private String resetTenor;
+ 
+ 
+  private String isNonDeliverable;
+ 
+ 
+  private String compositionType;
+ 
+ 
+  private String customAttributeName1;
+ 
+ 
+  private String customAttributeValue1;
+ 
+ 
+  private String customAttributeName2;
+ 
+ 
+  private String customAttributeValue2;
+ 
+ 
+  private String customAttributeName3;
+ 
+ 
+  private String customAttributeValue3;
+ 
+
+
+ 
+
