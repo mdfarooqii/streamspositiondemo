@@ -19,70 +19,330 @@ Position file
   private String id;
  
  
-  private String marketDataSetName;
- 
- 
-  private String name;
- 
- 
-  private String marketDataSetType;
- 
- 
-  private String marketDataSetContext;
+  private String parentPositionId;
  
  
   private String
-  marketDataSetCreationDateTime;
+  sourceSystemPositionIdDomain;
+ 
+ 
+  private String sourceSystemPositionIdId;
+ 
+ 
+  private String description;
+ 
+ 
+  private String modificationDate;
+ 
+ 
+  private String bookingSystem;
+ 
+ 
+  private String tradeEvent;
+ 
+ 
+  private String tradeIdDomain;
+ 
+ 
+  private String tradeIdId;
+ 
+ 
+  private String tradeIdVersion;
+ 
+ 
+  private String tradeIdLeg;
+ 
+ 
+  private String alternateTradeIdDomain;
+ 
+ 
+  private String alternateTradeIdId;
+ 
+ 
+  private String alternateTradeIdVersion;
+ 
+ 
+  private String alternateTradeIdLeg;
+ 
+ 
+  private String clearedTradeIdDomain;
+ 
+ 
+  private String clearedTradeIdId;
+ 
+ 
+  private String relatedTradeIdDomain;
+ 
+ 
+  private String relatedTradeIdId;
+ 
+ 
+  private String relatedTradeIdVersion;
+ 
+ 
+  private String relatedTradeIdLeg;
+ 
+ 
+  private String contractIdDomain;
+ 
+ 
+  private String contractIdId;
+ 
+ 
+  private String contractIdVersion;
  
  
   private String
-  marketDataSetSourceIdDomain;
- 
- 
-  private String marketDataSetSourceIdId;
+  valuationSystemPositionIdDomain;
  
  
   private String
-  marketDataSetSourceIdVersion;
+  valuationSystemPositionIdId;
+ 
+ 
+  private String lifecycleStatus;
  
  
   private String
-  marketDataSetLegacySourceIdDomain;
+  officialValuationModelIdDomain;
  
  
   private String
-  marketDataSetLegacySourceIdId;
+  officialValuationModelIdId;
  
  
-  private String marketDataSetRiskType;
+  private String counterpartyType;
+ 
+ 
+  private String counterpartyIdDomain;
+ 
+ 
+  private String counterpartyIdId;
  
  
   private String
-  marketDataSetCalculationType;
+  initiatingCounterpartyIdDomain;
  
  
-  private String marketDataSetModelDomain;
+  private String
+  initiatingCounterpartyIdId;
  
  
-  private String marketDataSetModelId;
+  private String groupType1;
  
  
-  private String marketDataSetOwnerDomain;
+  private String groupType2;
  
  
-  private String marketDataSetOwnerId;
+  private String groupIdDomain1;
  
  
-  private String marketDataSetCurrency;
+  private String groupIdId1;
  
  
-  private String discountingMarketDataSet;
+  private String groupIdDomain2;
  
  
-  private String referenceMarketDataSet;
+  private String groupIdId2;
  
  
-  private String countryOfRisk;
+  private String groupDescription1;
+ 
+ 
+  private String groupDescription2;
+ 
+ 
+  private String tradeDate;
+ 
+ 
+  private String effectiveDate;
+ 
+ 
+  private String systemEntryDate;
+ 
+ 
+  private String longShort;
+ 
+ 
+  private String traderDomain;
+ 
+ 
+  private String traderId;
+ 
+ 
+  private String brokerDomain;
+ 
+ 
+  private String brokerId;
+ 
+ 
+  private String tradingBookIdDomain;
+ 
+ 
+  private String tradingBookIdId;
+ 
+ 
+  private String legacyRiskClass;
+ 
+ 
+  private String
+  otherSideTradingBookIdDomain;
+ 
+ 
+  private String otherSideTradingBookIdId;
+ 
+ 
+  private String
+  riskHoldingEntityIdDomain;
+ 
+ 
+  private String riskHoldingEntityIdId;
+ 
+ 
+  private String
+  contractingEntityIdDomain;
+ 
+ 
+  private String contractingEntityIdId;
+ 
+ 
+  private String subBook;
+ 
+ 
+  private String family;
+ 
+ 
+  private String legacyLegalEntity;
+ 
+ 
+  private String strategy;
+ 
+ 
+  private String amountCurrency;
+ 
+ 
+  private String currentAmount;
+ 
+ 
+  private String originalAmount;
+ 
+ 
+  private String maturityDate;
+ 
+ 
+  private String maturityDateType;
+ 
+ 
+  private String tradingCurrency;
+ 
+ 
+  private String isFundedCDS;
+ 
+ 
+  private String isInDefault;
+ 
+ 
+  private String ubsInstrumentIdDomain;
+ 
+ 
+  private String ubsInstrumentIdId;
+ 
+ 
+  private String ubsInstrumentIdVersion;
+ 
+ 
+  private String ubsInstrumentIdLevel;
+ 
+ 
+  private String
+  alternateInstrumentIdDomain1;
+ 
+ 
+  private String alternateInstrumentIdId1;
+ 
+ 
+  private String
+  alternateInstrumentIdDomain2;
+ 
+ 
+  private String alternateInstrumentIdId2;
+ 
+ 
+  private String
+  underlierUbsInstrumentIdDomain;
+ 
+ 
+  private String
+  underlierUbsInstrumentIdId;
+ 
+ 
+  private String
+  underlierUbsInstrumentIdVersion;
+ 
+ 
+  private String
+  underlierAlternateInstrumentIdDomain;
+ 
+ 
+  private String
+  underlierAlternateInstrumentIdId;
+ 
+ 
+  private String legacyProductType;
+ 
+ 
+  private String legacyProductSubType;
+ 
+ 
+  private String productIdDomain;
+ 
+ 
+  private String productIdId;
+ 
+ 
+  private String productIdVersion;
+ 
+ 
+  private String parentProductIdDomain;
+ 
+ 
+  private String parentProductIdId;
+ 
+ 
+  private String parentProductIdVersion;
+ 
+ 
+  private String isOTC;
+ 
+ 
+  private String cashFlowType;
+ 
+ 
+  private String cashFlowValue;
+ 
+ 
+  private String cashFlowFrequency;
+ 
+ 
+  private String nextResetDate;
+ 
+ 
+  private String underlyingAssetType;
+ 
+ 
+  private String callPutIndicator;
+ 
+ 
+  private String buySell;
+ 
+ 
+  private String strikeCurrency;
+ 
+ 
+  private String strike;
+ 
+ 
+  private String strikeUnitOfMeasure;
  
  
   private String index;
@@ -91,155 +351,172 @@ Position file
   private String tranche;
  
  
-  private String referenceIndex;
+  private String currencyList;
  
  
-  private String sAndPRating;
+  private String quoteType;
  
  
-  private String moodyRating;
+  private String quoteCurrency;
  
  
-  private String fitchRating;
+  private String quoteValue;
  
  
-  private String internalRating;
+  private String quoteUnitOfMeasure;
  
  
-  private String compositeRating;
+  private String hasInflationRisk;
  
  
-  private String instrumentIdDomain;
+  private String collateralType;
  
  
-  private String instrumentIdId;
+  private String barrierEventType1;
+ 
+ 
+  private String barrierEventDirection1;
+ 
+ 
+  private String barrierLevel1;
+ 
+ 
+  private String barrierEventStartDate1;
+ 
+ 
+  private String barrierEventEndDate1;
+ 
+ 
+  private String barrierRebateAmount1;
  
  
   private String
-  alternateInstrumentIdDomain;
+  barrierRebatePayoutStyle1;
  
  
-  private String alternateInstrumentIdId;
+  private String barrierEventType2;
  
  
-  private String currencyPair;
+  private String barrierEventDirection2;
  
  
-  private String compoundingMethod;
+  private String barrierLevel2;
  
  
-  private String seniority;
+  private String barrierEventStartDate2;
+ 
+ 
+  private String barrierEventEndDate2;
+ 
+ 
+  private String barrierRebateAmount2;
+ 
+ 
+  private String
+  barrierRebatePayoutStyle2;
+ 
+ 
+  private String deliveryMethod;
+ 
+ 
+  private String deliveryStartDate;
+ 
+ 
+  private String deliveryEndDate;
+ 
+ 
+  private String exerciseFrequency;
+ 
+ 
+  private String eventStatus;
+ 
+ 
+  private String includeInPnL;
  
  
   private String restructuringType;
  
  
-  private String referenceEntityIdDomain;
+  private String delay;
  
  
-  private String referenceEntityIdId;
+  private String optionStyle;
  
  
-  private String curveMarketDomain;
+  private String calculatorType;
  
  
-  private String curveMarketId;
+  private String cutZone;
  
  
-  private String curveType;
+  private String accrualMethod;
  
  
-  private String curveSubType;
+  private String dealType;
  
  
-  private String parameterFamily;
+  private String legType;
  
  
-  private String location;
+  private String bidType;
  
  
-  private String quality;
+  private String isChinese;
  
  
-  private String isTradingAsDefaulted;
+  private String isRealized;
  
  
-  private String guarantorName;
+  private String averagingStartDate;
  
  
-  private String guaranteeType;
+  private String averagingEndDate;
  
  
-  private String guaranteeEndDate;
+  private String settlementDate;
  
  
-  private String immConvention;
+  private String underlyingMaturityDate;
  
  
-  private String premiumFrequency;
+  private String isDigital;
  
  
-  private String markQuoteConvention;
+  private String nextResetEffectiveDate;
  
  
-  private String rowLabel;
+  private String nextResetEndDate;
  
  
-  private String rowLabelDate;
+  private String nextCancellableDate;
  
  
-  private String columnLabel;
+  private String settlementMechanism;
  
  
-  private String columnLabelDate;
+  private String facilityIdDomain;
  
  
-  private String additionalLabelName1;
+  private String facilityIdId;
  
  
-  private String additionalLabelValue1;
+  private String
+  relatedPartnerPortfolioIdDomain;
  
  
-  private String additionalLabelName2;
+  private String
+  relatedPartnerPortfolioIdId;
  
  
-  private String additionalLabelValue2;
+  private String
+  relatedPartnerAccountIdDomain;
  
  
-  private String termStructureConvention;
+  private String
+  relatedPartnerAccountIdId;
  
  
-  private String minuendMDSName;
- 
- 
-  private String minuendMDSCurrency;
- 
- 
-  private String minuendMDSResetTenor;
- 
- 
-  private String subtrahendMDSName;
- 
- 
-  private String subtrahendMDSCurrency;
- 
- 
-  private String subtrahendMDSResetTenor;
- 
- 
-  private String impliedFrom;
- 
- 
-  private String outrightCurveName;
- 
- 
-  private String resetTenor;
- 
- 
-  private String isNonDeliverable;
- 
- 
-  private String compositionType;
+  private String calculatedMaturityDate;
  
  
   private String customAttributeName1;
@@ -259,6 +536,7 @@ Position file
  
   private String customAttributeValue3;
  
+
 
 -----  MDS file 
 
